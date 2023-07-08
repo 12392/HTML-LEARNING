@@ -1,0 +1,56 @@
+<!-- Type of attribute in input  -->
+
+<!-- value -> we can set the default value show in webpage  -->
+
+<!-- readonly -> value attribute that is set for the input cannot be change -->
+
+<!-- disabled -> value attribute that is set for the input cannot be change -->
+
+<!-- size ->  increase size of input feild that will be visible for
+eg we put 50 words and size = 20 then 20 words are visible in the input feild -->
+
+<!-- maxlen -> it will limit the number of words that can enter for eg
+if we define maxlen 8 then we can type only 8 character -->
+
+<!-- min and max of number input feild it will swt the range to accet the number 
+    between min and max -->
+
+<!-- placeholder -> it gives the hint to the user what to enter in that text feild  -->
+
+<!-- required -> make the text feild compulsary to be filled -->
+
+<!-- step of number input feild tells us how much should it increment the number  -->
+
+<!-- autofocus -> it will focus that feild to be filled when refreshed -->
+
+<!-- autocomplete it will give suggestion regarding the feild to filled according to previous input  -->
+
+<!-- name -> basically used in backend to name the input type for the response after the submit  -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <input type="text" /> <br />
+      <input type="text" value="Enter Something!!" /><br />
+      <input type="text" value="Enter Something!!" readonly /><br />
+      <input type="text" value="Enter Something!!" disabled /><br />
+      <input type="text" placeholder="Enter Something!!" /><br />
+      <input type="text" size="50" /><br />
+      <input type="text" maxlength="8" /><br />
+      <input type="text" placeholder="Enter Something!!" required /><br />
+      <input type="text" autofocus /><br />
+      <input type="text" name="name" /><br />
+      <input type="text" autocomplete="" /><br />
+      <input type="number" min="10" max="20" /><br />
+      <input type="number" value="1" step="2" /><br />
+      <input type="submit" value="Go" />
+    </form>
+  </body>
+</html>
